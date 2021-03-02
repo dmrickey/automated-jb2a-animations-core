@@ -1,0 +1,38 @@
+{
+    "name": "automated-jb2a-animations-core",
+    "title": "Automated Animations DnD5e",
+    "description": "This will automatically run most JB2A Animations such as Melee/Ranged Attacks, Spell Attacks, and Instant Spells",
+    "version": "0.0.9",
+    "author": "Otigon",
+    "url": "https://github.com/otigon/automated-jb2a-animations-core",
+    "minimumCoreVersion": "0.7.5",
+    "compatibleCoreVersion": "0.7.9",
+    "esmodules": [
+        "src/autoAnimations.js"
+    ],
+    "packs": [
+        {
+            "name": "Useful Macros",
+            "label": "Useful Macros",
+            "path": "packs/macros-umcr.db",
+            "entity": "Macro",
+            "module": "automated-jb2a-animations-core"
+        }
+    ],
+    "dependencies": [
+        {
+            "name": "fxmaster",
+            "type": "module"
+        },
+        {
+            "name": "furnace",
+            "type": "module"
+        },
+        {
+            "name": "JB2A_DnD5e",
+            "type": "module"
+        }
+    ],
+    "manifest": "https://raw.githubusercontent.com/otigon/automated-jb2a-animations-core/main/module.json",
+    "download": "https://github.com/otigon/automated-jb2a-animations-core/releases/download/0.0.9/automated-jb2a-animations-core-0.0.9.zip"
+}
