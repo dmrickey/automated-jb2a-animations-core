@@ -219,10 +219,6 @@ Hooks.on("createChatMessage", async (msg) => {
         case (itemIncludes("shield")):
             CastOnSelf()
             break;
-
-        case (itemTypeIncludes("weapon")):
-        case (itemTypeIncludes("consumable")):
-        case (itemTypeIncludes("attack")):
         case (itemIncludes("dagger")):
         case (itemIncludes("handaxe")):
         case (itemIncludes("spear")):
